@@ -1,2 +1,31 @@
 @charset 'UTF-8';
 
+/* Navigation Bar */
+
+#navBar{
+    position: absolute;
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navBarLeft{
+    padding: 1rem 0rem 0rem 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#navBarRight{
+    padding: 1rem 4rem 0rem 0rem;
+}
+
+#sectionsUl{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
