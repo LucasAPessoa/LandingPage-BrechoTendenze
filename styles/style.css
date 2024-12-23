@@ -40,3 +40,36 @@
     width: 100%;
 }
 
+/* Hero Section */
+
+#heroSection{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+#sloganContainer{
+    width: min-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 1em;
+
+}
+
+#sloganContainer > h2{
+    width: 50vw;
+    font-size: 6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sloganContainer > p{
+    width: 50vw;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
