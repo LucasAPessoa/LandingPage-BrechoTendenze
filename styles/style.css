@@ -13,6 +13,14 @@
     margin: 0
 }
 
+/* Variables */
+
+:root{
+    /* Fonts */
+    --main-font:'Montserrat';
+    --slogan-font:'Coolvetica';
+}
+
 /* Navigation Bar */
 
 #navBar{
