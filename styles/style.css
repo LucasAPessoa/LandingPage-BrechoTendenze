@@ -48,7 +48,7 @@
     flex-direction: row;
     gap: 2rem;
     list-style: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--main-font);
 }
 
 /* Main */
@@ -82,11 +82,12 @@
 #sloganContainer > h2{
     width: 50vw;
     font-size: 6rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--main-font);
+    line-height: 1em;
 }
 
 #sloganContainer > p{
     width: 50vw;
     font-size: 1.5rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--main-font);;
 }
