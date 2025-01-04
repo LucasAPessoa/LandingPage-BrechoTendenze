@@ -98,3 +98,64 @@
     color: rgb(154, 2, 58);
 
 }
+
+/* Advantages Section */
+
+#advantagesSection{
+    height: 100vh;
+    width: 100%;
+}
+
+#adventagesMainContainer{
+    height: 100%;
+    background-color: rgb(255, 181, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gridAdvantages{
+    background-color: rgb(255, 133, 144);
+    border-radius: 80px;
+    width: 70%;
+    height: 70%;
+    padding: 2em;
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "adv1 adv2"
+    "adv3 adv4";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr 1fr;
+    font-family: var(--main-font);
+
+}
+
+.advantages{
+    text-align: center;
+    font-family: var(--main-font);
+    padding: 2em;
+}
+
+#advantageTitle{
+    grid-area: title;
+    text-align: center;
+    line-height: 4em;
+}
+
+#adv1{
+    grid-area: adv1;
+}
+
+#adv2{
+    grid-area: adv2;
+}
+
+#adv3{
+    grid-area: adv3;
+}
+
+#adv4{
+    grid-area: adv4;
+}
+
