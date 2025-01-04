@@ -92,3 +92,9 @@
     font-size: 1.5rem;
     font-family: var(--main-font);;
 }
+
+#sloganContainer > h2 > span, #sloganContainer > p > strong {
+
+    color: rgb(154, 2, 58);
+
+}
