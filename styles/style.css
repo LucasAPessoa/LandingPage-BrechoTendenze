@@ -87,6 +87,7 @@
 }
 
 #sloganContainer > p{
+    line-height: 3.5em;
     width: 50vw;
     font-size: 1.5rem;
     font-family: var(--main-font);;
