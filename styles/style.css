@@ -158,12 +158,12 @@
 
 #adv2{
     grid-area: adv2;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    border-bottom:  var(--adv-grid-borders);
 }
 
 #adv3{
     grid-area: adv3;
-    border-right: 2px solid rgba(0, 0, 0, 0.3);
+    border-right:  var(--adv-grid-borders);
 }
 
 #adv4{
