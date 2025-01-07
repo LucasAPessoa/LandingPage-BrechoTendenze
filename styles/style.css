@@ -19,6 +19,9 @@
     /* Fonts */
     --main-font:'Montserrat';
     --slogan-font:'Coolvetica';
+
+    /* Advantages Section */
+    --adv-grid-borders: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 /* Navigation Bar */
