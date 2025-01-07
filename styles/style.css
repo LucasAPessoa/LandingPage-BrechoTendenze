@@ -170,3 +170,34 @@
     grid-area: adv4;
 }
 
+/* Advantages Section: Spheres Animation */
+
+#spheresContainer{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.sphere{
+    height: 70px;
+    width: 70px;
+    display: block;
+    background: black;
+    border-radius: 100%;
+    background: radial-gradient(circle at 20px 20px, rgb(252, 196, 201), rgb(255, 158, 166));
+    animation: spheresAnimation linear infinite;
+    animation-duration: calc(300s / var(--i));
+}
+
+/* Spheres animations */
+
+@keyframes spheresAnimation {
+    0%{
+        transform: translateY(100vh) scale(0)
+    }
+    100% {
+        transform: translateY(-10vh) scale(1);
+    }
+}
