@@ -111,14 +111,14 @@
 
 #advantagesMainContainer{
     height: 100%;
-    background-color: rgb(255, 181, 187);
+    background-color: rgb(252, 196, 201);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #gridAdvantages{
-    background-color: rgb(255, 133, 144);
+    background-color: rgb(251, 169, 176);
     border-radius: 80px;
     width: 70%;
     height: 70%;
