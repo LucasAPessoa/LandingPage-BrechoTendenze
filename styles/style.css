@@ -131,6 +131,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: min-content 1fr 1fr;
     font-family: var(--main-font);
+    position: absolute;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);
     
 
 }
