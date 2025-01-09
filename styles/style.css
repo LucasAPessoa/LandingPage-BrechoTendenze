@@ -48,7 +48,17 @@
     padding: 1rem 0rem 0rem 4rem;
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+#navBarLeft > img {
+    width: 4rem;
+}
+
+#navBarLeft > h1 {
+    font-family: 'Busorama';
+    font-size: 3em;
 }
 
 #navBarRight{
