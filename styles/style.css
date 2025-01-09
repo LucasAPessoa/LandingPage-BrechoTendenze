@@ -207,7 +207,7 @@
     border-radius: 100%;
     background: radial-gradient(circle at 20px 20px, rgb(252, 196, 201), rgb(255, 158, 166));
     animation: spheresAnimation linear infinite;
-    animation-duration: calc(300s / var(--i));
+    animation-duration: calc(150s / var(--i));
 }
 
 /* Spheres animations */
