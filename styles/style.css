@@ -9,6 +9,11 @@
     src: url(../fonts/Coolvetica\ Rg.otf);
 }
 
+@font-face {
+    font-family: 'Busorama';
+    src: url('../fonts/busorama.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
