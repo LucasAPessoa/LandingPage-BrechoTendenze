@@ -137,14 +137,27 @@
     font-family: var(--main-font);
     position: absolute;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);
-    
+    overflow: hidden;
 
 }
 
 .advantages{
     text-align: center;
     font-family: var(--main-font);
-    padding: 2em;
+    padding: 1em;
+}
+
+.advantages > h3 {
+    width: 100%;
+    font-size: 2em;
+}
+
+.advantages > i, .advantages > h3{
+    padding-bottom: 1rem;
+}
+
+.advantages > p {
+    padding: 0 1.5em 1.5em 1.5em;
 }
 
 #advantageTitle{
@@ -158,11 +171,13 @@
     grid-area: adv1;
     border-right: var(--adv-grid-borders);
     border-bottom:  var(--adv-grid-borders);
+    padding-top: 1em;
 }
 
 #adv2{
     grid-area: adv2;
     border-bottom:  var(--adv-grid-borders);
+    padding-top: 1em;
 }
 
 #adv3{
