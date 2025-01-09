@@ -124,8 +124,8 @@
 #gridAdvantages{
     background-color: rgb(251, 169, 176);
     border-radius: 80px;
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 75%;
     padding: 2em;
     display: grid;
     grid-template-areas: 
