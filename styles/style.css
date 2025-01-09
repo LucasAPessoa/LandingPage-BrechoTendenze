@@ -32,10 +32,11 @@
 #navBar{
     position: absolute;
     width: var(--sections-width);
-    height: 5rem;
+    height: 4.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 #navBarLeft{
@@ -46,15 +47,24 @@
 }
 
 #navBarRight{
-    padding: 1rem 3rem 0rem 0rem;
+    padding: 0 4rem 0 0;
 }
 
 #sectionsUl{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
     list-style: none;
     font-family: var(--main-font);
+    height: 100%;
+    align-items: center;
+}
+
+#sectionsUl > li{
+    padding: 0 1.5rem 0 1.5rem;
+    
+}
+
 }
 
 /* Main */
